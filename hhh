@@ -206,10 +206,4 @@ ESPButton.MouseButton1Click:Connect(toggleESP)
 
 ToggleButton.MouseButton1Click:Connect(function()
     local isCurrentlyVisible = MainFrame.Visible
-    animateVisibility(MainFrame, not isCurrentlyVisible)
-    if not isCurrentlyVisible then
-        ToggleButton.Text = "Fechar"
-    else
-        ToggleButton.Text = "CLH HUB"
-    end
-end)
+   
